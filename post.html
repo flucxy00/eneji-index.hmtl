@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .space {
+            display: flex;
+            gap: 20px;
+            height: 10px;
+            justify-content: right;
+            margin-bottom: 35px;
+        }
+
+        .en {
+            background-color: red;
+            width: 5px;
+            height: 5px;
+            border-radius: 3px;
+            position: fixed;
+        }
+
+        .done {
+            display: flex;
+            font-size: 11px;
+            gap: 10px;
+            background-color: #8DECB4;
+            height: 80px;
+            padding: 2px;
+            justify-content: center;
+            border-radius: 4%;
+        }
+
+        .fk {
+            position: relative;
+            top: 30px;
+        }
+
+        .test {
+            position: absolute;
+            top: 18%;
+            margin-left: 50%;
+            background-color: antiquewhite;
+            color: #8DECB4;
+            padding: 4px;
+            border-radius: 20px;
+        }
+
+        .container {
+            background-color: whitesmoke;
+            display: flex;
+            gap: 15px;
+            font-size: 11px;
+            margin-top: 10px;
+            height: 75px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 4%;
+
+
+        }
+
+        .box {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 10px;
+            font-size: 11px;
+            background-color: whitesmoke;
+            margin-top: 10px;
+            grid-template-rows: 60px;
+            justify-content: center;
+            padding: 20px;
+            align-items: center;
+            border-radius: 5%;
+        }
+
+        .firm {
+            background-color: whitesmoke;
+            margin-top: 10px;
+            bottom: 5%;
+            padding: 2px;
+            height: 50px;
+            border-radius: 5%;
+        }
+
+        .firm>* {
+            margin-left: 40px;
+        }
+
+        span {
+            font-size: 11px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 10px;
+            font-size: 11px;
+            justify-content: center;
+            height: 100px;
+            align-items: end;
+        }
+
+        @media(max-width:600px) {
+            .space {
+                justify-content: right;
+            }
+
+            .done {
+                padding: 7.05px;
+                height: 100px;
+                gap: 10px;
+            }
+
+            .test {
+                margin-right: 15%;
+                font-size: 10px;
+
+            }
+
+            .fk {
+                font-size: 10px;
+                margin-left: 8px;
+            }
+
+            .box {
+                font-size: 10px;
+                flex-grow: 2;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="space">
+        <div>♀</div>
+        <div>☻</div>
+        <div>⌂</div>
+        <div class="en"></div>
+    </div>
+    <div class="done">
+        <div class="fk">Available Balance☻</div>
+
+        <div class="fk">Transaction History</div>
+        <div class="test">+Add Money</div>
+    </div>
+    <div class="container">
+        <div class="lon">To Simpay</div>
+        <div class="lon">To Bank</div>
+        <div class="lon">Withdraw</div>
+
+    </div>
+    <div class="box">
+        <div>Airtime</div>
+        <div>Data</div>
+        <div>Betting</div>
+        <div>Tv</div>
+        <div>Owealth</div>
+        <div>Loan</div>
+        <div>Play4achild</div>
+        <div>More</div>
+    </div>
+    <div class="firm">
+        <div>Cash up for grabs! <br> <span>invites friends an earn up to $1 cash</span></div>
+    </div>
+    <div class="cards">
+        <div>Home</div>
+        <div>Reward</div>
+        <div>Finance</div>
+        <div>Cards</div>
+        <div>Me</div>
+    </div>
+
+</body>
+
+</html>

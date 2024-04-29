@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .price {
+            background-color: #f2f2f2;
+            max-width: 150px;
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        .main {
+            background-color: grey;
+            max-width: 50px;
+            padding: 0.5px;
+            border-radius: 5px;
+            position: relative;
+            top: 10px;
+            justify-content: center;
+        }
+
+        span {
+            color: white;
+            background-color: green;
+        }
+
+        @media(max-width:500px) {
+            div {
+                display: block;
+                margin-bottom: 10px;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .price {
+                justify-content: center;
+                margin: 8%;
+            }
+
+            li {
+                list-style: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="done">
+        <div class="price">
+            <div>Basic</div>
+            <div>$834.869/month</div>
+            <ul>
+                <li> <span>√</span>10GB Storage</li>
+                <li><span>√</span> 1 user</li>
+                <li> support</li>
+                <div class="main">Sign up</div>
+            </ul>
+
+        </div>
+        <div class="price">
+            <div>Standard</div>
+            <div>$4354.874/month</div>
+            <ul>
+                <li><span>√</span> 40GB Storage</li>
+                <li><span>√</span> 5 user</li>
+                <li> <span>√</span> phone & email support</li>
+                <div class="main">Sign up</div>
+            </ul>
+        </div>
+
+        <div class="price">
+            <div>prenium</div>
+            <div>$6354.394/month</div>
+            <ul>
+                <li> <span>√</span> 100GB Storage</li>
+                <li> <span>√</span>10user</li>
+                <li> <span>√</span> 24/7 support</li>
+                <div class="main">Sign up</div>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            font-size: 11px;
+            background-color: #00215E;
+            color: whitesmoke;
+            justify-content: center;
+            text-align: center;
+
+
+        }
+
+        span {
+            font-weight: bolder;
+            font-size: 25px;
+            color: #0C0C0C;
+        }
+
+        .text {
+            width: 50px;
+        }
+
+        .done {
+            background-color: #003C43;
+            border-radius: 20px;
+        }
+
+        .pay {
+            background-color: #F05941;
+            border-radius: 2px;
+            height: 190px;
+
+        }
+
+        .size {
+            background-color: #0C0C0C;
+            border-radius: 20px;
+        }
+
+        .bin {
+            background-color: #068FFF;
+            border-radius: 5px;
+            height: 200px;
+        }
+
+        button {
+            border-radius: 20px;
+            width: 80px;
+        }
+
+        .bet {
+            background-color: #A87676;
+            border-radius: 20px;
+        }
+
+        .bomb {
+            background-color: #FFC55A;
+            border-radius: 3px;
+            height: 200px;
+        }
+
+        button {
+            position: relative;
+        }
+
+        .pin {
+            background-color: #003C43;
+            padding: 2px;
+            border-radius: 20px;
+            position: relative;
+            top: 3px;
+            color: whitesmoke;
+        }
+
+        .pok {
+            background-color: #0C0C0C;
+            padding: 2px;
+            border-radius: 20px;
+        }
+
+        .en {
+            background-color: #A87676;
+            border-radius: 20px;
+            padding: 2px;
+        }
+
+        .ph {
+            background-color: #003C43;
+            color: whitesmoke;
+        }
+
+        .vk {
+            background-color: #0C0C0C;
+            color: whitesmoke;
+            position: relative;
+            top: 15px;
+        }
+
+        .simon {
+            background-color: #A87676;
+            color: whitesmoke;
+            position: relative;
+            top: 15px;
+        }
+
+        @media(max-width:600px) {
+            .container {
+                background-color: whitesmoke;
+                flex-direction: column;
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="done">
+            <p>Basic</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet <br> consectetur.</p>
+            <div class="pay">
+                <p> <span>$100</span>/mn</p>
+                <hr class="text">
+                <p> <em class="pin">√</em>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.</p>
+                <p><em class="pin">√</em>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</p>
+                <p><em class="pin">√</em>Lorem ipsum dolor sit amet <br>consectetur.</p>
+                <button class="ph">BUY NOW</button>
+
+            </div>
+
+        </div>
+        <div class="size">
+            <div id="text">
+                <div>Standard</div>
+                <hr>
+                <p>Lorem ipsum dolor sit amet <br>consectetur.</p>
+                <div class="bin">
+                    <p> <span>$200</span>/mn</p>
+                    <hr class="text">
+                    <p> <em class="pok">√</em>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</p>
+                    <p><em class="pok">√</em>Lorem ipsum dolor, sit amet <br>consectetur adipisicing elit.</p>
+                    <p><em class="pok">√</em>Lorem ipsum dolor sit amet <br> consectetur.</p>
+                    <button class="vk">BUY NOW</button>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="bet">
+            <div class="pt">
+                <div>Prenium</div>
+                <hr>
+                <p>Lorem ipsum dolor sit amet <br>consectetur.</p>
+                <div class="bomb">
+                    <p> <span>$300</span>/mn</p>
+                    <hr class="text">
+                    <p><em class="en">√</em>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</p>
+                    <p><em class="en">√</em>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit.</p>
+                    <p><em class="en">√</em>Lorem ipsum dolor sit amet <br>consectetur.</p>
+                    <button class="simon">BUY NOW</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
